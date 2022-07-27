@@ -31,14 +31,18 @@
     transition: transform 1s ease;
 }
 
-.bg-image-dark{
-    
-
-    background: linear-gradient(rgba(0, 0, 0, 0.334),
-            rgba(0, 0, 0, 0.782));
-    background-blend-mode: darken;
+.bg-image-dark img{
+    filter: brightness(50%)
 }
 
 /* ================================================================================
                          ******** Carousel *********
 ================================================================================ */
+
+@media only screen and (max-width:576px) {
+    .carousel-item img {
+        height: 80vh;
+        object-fit: cover;
+    }
+
+}
