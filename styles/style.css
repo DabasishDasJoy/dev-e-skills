@@ -37,15 +37,15 @@
     filter: brightness(50%)
 }
 
-.carousel-control-prev, .carousel-control-next{
+.testimonial-prev-button, .testimonial-next-button{
     width: 4%;
     height: 14%;
     top: 50%;
 }
-.carousel-control-prev{
+.testimonial-prev-button{
     left: -2%;
 }
-.carousel-control-next{
+.testimonial-next-button{
     left: 98%;
 }
 /* ================================================================================
