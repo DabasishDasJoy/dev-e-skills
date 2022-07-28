@@ -37,7 +37,17 @@
     filter: brightness(50%)
 }
 
-
+.carousel-control-prev, .carousel-control-next{
+    width: 4%;
+    height: 10%;
+    top: 50%;
+}
+.carousel-control-prev{
+    left: -2%;
+}
+.carousel-control-next{
+    left: 98%;
+}
 /* ================================================================================
                          ******** Carousel *********
 ================================================================================ */
