@@ -9,7 +9,7 @@
 /* ================================================================================
                          ******** Utilities *********
 ================================================================================ */
-.body {
+body {
     margin: 0 auto;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
@@ -18,9 +18,11 @@
 .dev-bg-primary {
     background-color: #289BDE;
 }
-.dev-bg-secondary{
+
+.dev-bg-secondary {
     background-color: #F4FAFD;
 }
+
 /* ================================================================================
                          ******** Utilities *********
 ================================================================================ */
@@ -33,21 +35,25 @@
     transition: transform 1s ease;
 }
 
-.bg-image-dark img{
+.bg-image-dark img {
     filter: brightness(50%)
 }
 
-.testimonial-prev-button, .testimonial-next-button{
+.testimonial-prev-button,
+.testimonial-next-button {
     width: 4%;
-    height: 14%;
+    height: 13%;
     top: 50%;
 }
-.testimonial-prev-button{
+
+.testimonial-prev-button {
     left: -2%;
 }
-.testimonial-next-button{
+
+.testimonial-next-button {
     left: 98%;
 }
+
 /* ================================================================================
                          ******** Carousel *********
 ================================================================================ */
@@ -57,13 +63,13 @@
 ================================================================================ */
 
 
-@media only screen  and (max-width:992px) {
+@media only screen and (max-width:992px) {
     .carousel-item img {
         height: 100vh;
         object-fit: cover;
     }
-    
 }
+
 /* ================================================================================
                          ******** Media Query *********
 ================================================================================ */
